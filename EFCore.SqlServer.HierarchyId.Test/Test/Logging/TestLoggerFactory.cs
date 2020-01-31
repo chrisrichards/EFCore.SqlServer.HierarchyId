@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 
 namespace Bricelam.EntityFrameworkCore.Test.Logging
 {
@@ -9,7 +8,9 @@ namespace Bricelam.EntityFrameworkCore.Test.Logging
             = new TestLogger();
 
         public void AddProvider(ILoggerProvider provider)
-            => throw new NotImplementedException();
+        {
+            // do nothing
+        }
 
         public ILogger CreateLogger(string categoryName)
             => Logger;

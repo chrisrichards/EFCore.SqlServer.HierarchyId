@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using Microsoft.SqlServer.Types;
+using ChrisRichards.SqlServer.Types;
 
 namespace Bricelam.EntityFrameworkCore
 {
